@@ -131,9 +131,13 @@ h2 {
 #left-about div {
     width: 60%;
     float: right;
-    line-height: 20px;
+    line-height: 20x;
     clear: both;
     margin-bottom: 50px;
+}
+
+#left-about h2, #right-about p {
+    text-align: left;
 }
 
 #right-about {
@@ -292,5 +296,29 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-about, #left-about h2, #right-about p {
+       display: grid;
+       row-gap: 5px;
+       text-align: center;
+       justify-items: center;
+    }
+
+    #right-about, #right-about h2, #right-about p {
+       display: grid;
+       row-gap: 5px;
+       text-align: center;
+       justify-items: center;
     }
 }
