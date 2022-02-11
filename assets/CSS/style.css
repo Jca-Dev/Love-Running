@@ -293,6 +293,25 @@ footer {
     border-color: #f16c6b;
 }
 
+.form-section div {
+    display: list-item;
+    list-style-type: none;
+    padding-top: 10px;
+    
+}
+
+#road{
+    margin-left: 10px;
+}
+
+#trail {
+    margin-left: 15.8px;
+}
+
+#both {
+    margin-left: 12px;
+}
+
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
